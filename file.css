@@ -1,0 +1,130 @@
+/* Reset CSS (DO NOT DELETE) */
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Ketik code Anda dibawah */
+.header {
+  background-color: brown;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list {
+  float: left;
+  font-size: 15px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 60px 80px;
+}
+
+.copy-container h1 {
+  font-size: 30px;
+}
+
+.copy-container h2 {
+  font-size: 50px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents {
+  height: 350px;
+  margin-top: 10px;
+  padding: 60px 80px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item li {
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+.contact-form {
+  padding: 60px 80px;
+}
+
+ol{
+  display:block;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  list-style-type: decimal;
+  margin-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li{
+  display:list-item;
+  text-align: justify;
+}
+  
+ol{
+  list-style: decimal;
+}
+
+.footer {
+  background-color: brown;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 22px;
+}
