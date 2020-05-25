@@ -85,21 +85,15 @@ li {
   margin-top: 5px;
 }
 
-.contact-form {
+.contact-form{
   padding: 60px 80px;
+	font-size:28px;
 }
 
-ol{
-  display:block;
-  font-size: 22px;
-  margin-top: 20px;
-  margin-bottom: 80px;
-  list-style-type: decimal;
-}
-
-li{
+.contact-form li{
   display:list-item;
   text-align: justify;
+	font-size:22px;
 }
 
 .footer {
