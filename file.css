@@ -77,10 +77,11 @@ li {
 .contents-item {
   float: left;
   margin-right: 40px;
+	font-size: 22px;
 }
 
 .contents-item li {
-	display:block;
+  display:list-item;
   font-size: 22px;
   margin-top: 5px;
 }
