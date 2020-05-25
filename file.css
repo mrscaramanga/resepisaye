@@ -46,6 +46,7 @@ li {
 
 .main {
   padding: 60px 80px;
+  margin-bottom: 20px;
 }
 
 .copy-container h1 {
@@ -79,6 +80,7 @@ li {
 }
 
 .contents-item li {
+	display:block;
   font-size: 22px;
   margin-top: 5px;
 }
@@ -93,20 +95,11 @@ ol{
   margin-top: 20px;
   margin-bottom: 80px;
   list-style-type: decimal;
-  margin-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
 }
 
 li{
   display:list-item;
   text-align: justify;
-}
-  
-ol{
-  list-style: decimal;
 }
 
 .footer {
