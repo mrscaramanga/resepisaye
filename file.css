@@ -54,6 +54,7 @@ li {
 }
 
 .copy-container h2 {
+	margin-bottom:20px;
   font-size: 50px;
 }
 
@@ -62,8 +63,6 @@ li {
 }
 
 .contents {
-  height: 350px;
-  margin-top: 10px;
   padding: 60px 80px;
 }
 
@@ -75,25 +74,27 @@ li {
 }
 
 .contents-item {
-  float: left;
-  margin-right: 40px;
-	font-size: 22px;
+	margin-right:20px;
 }
 
 .contents-item li {
-  display:list-item;
+	display:block;
   font-size: 22px;
-  margin-top: 5px;
 }
 
 .contact-form{
   padding: 60px 80px;
 	font-size:28px;
 }
-
-.contact-form li{
-  display:list-item;
+.cara-membuat{
+	padding: 20px 20px;
+}
+.cara-membuat li{
+	list-style:decimal;
   text-align: justify;
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: decimal;
 	font-size:22px;
 }
 
@@ -115,4 +116,14 @@ li {
 
 .footer-list li {
   padding-bottom: 22px;
+}
+
+.header li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.footer-list li:hover {
+  opacity: 0.5;
+}
+.foto{
+	text-align:center;
 }
